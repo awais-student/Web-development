@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fDNkJTIwcHVycGxlfGVufDB8fDB8fHww);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    padding-top: 20px;
+}
+
+#nav h2{
+    font-size: 30px;
+    color: white;  
+}
+
+#nav ul{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nav ul a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 10px;
+}
+
+#btn button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#btn button a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#sign{
+    background-color: #A8F2FE;
+
+}
+
+#head{
+    font-size: 90px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: #A8F2FE;
+}
+
+#head span{
+    color: white;
+}
+
+#para, p{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    color: white;
+    font-size: 40px;
+}
+
+#click button{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #A8F2FE;
+}
+
+#click button a{
+    text-decoration: none;
+    color: black;
+}
+
+#social{
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.pic img{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    border-radius: 10px;
+}
+
